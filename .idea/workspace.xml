@@ -16,7 +16,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1VcUBZWL1h1yvzlmJYBf9XJnl5c" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ask.url.filter.app" />
@@ -25,10 +31,10 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn compile" />
-      <command value="mvn install" />
       <command value="mvn clean" />
       <command value="mvn deploy" />
       <command value="mvn test" />
+      <command value="mvn install" />
     </option>
   </component>
   <component name="RunDashboard">
@@ -75,5 +81,16 @@
       <updated>1577551741345</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

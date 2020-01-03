@@ -1,0 +1,8 @@
+--- DEAD	hp-172.17.0.203		2 core 4GB		Dataport23 -- dataport, demo  
+----------------------------------------------------------------------------------------------------------------------
+1117		hp-172.17.0.117		4 core 8GB		Development windows box
+1199		lenovo-172.17.0.119	2 core 4GB		SubVersion server	
+1201		hp-172.17.0.201		4 core 4GB 		Dataport21 -- dataport, demo and secnodary database.
+1205		hp-172.17.0.205		2 core 4GB		Mail, name-server-2
+1207		hp-172.17.0.207		2 core 4GB		Domain load balancer
+1209		hp-172.17.0.209		4 core 8GB		Master-db

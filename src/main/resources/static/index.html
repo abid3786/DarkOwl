@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>URL Duplicates Removal</title>
+    <meta name="description" content="Application for the demonstration of DataPort features" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <!-- meta name="viewport" content="width=device-width, initial-scale=1" / -->
+  <!-- link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" / -->
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery_cookies.2.2.0.js"></script>
+  <script type="text/javascript" src="js/jquery.cookie.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1>URL<a href="#"> Duplicates </a> Removal</h1>
+        <div class="slogan">By Abid Khan</div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+	  <li class="current"><a href="index.html">Upload</a></li>
+          <li><a href="download.html">Download</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+        <h3>Notes:</h3>
+        <p class="notes"><span>Please select a file that contains URLs.<br/>File is expected to have one URL per line;<br/>and URLs are not validated.</br></span></p>
+        <form id="logon_form">
+          <div class="form_settings">
+            <p><input class="contact" type="file" name="urlFile" id="urlFile"/></p>
+            <p style="padding-top: 15px"><span>&nbsp;</span>
+              <button class="submit" type="button" onclick="javascript:postForm('/uploadFileForJavaStream')">Upload</button>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="wrapper" align="center">
+        <div class="progress-bar" align="left">
+          <span class="progress-bar-fill" id="statusBar" style="width: 0%;"></span>
+        </div>
+      </div>
+      <div>
+        <span>&nbsp;</span>
+      </div>
+    </div>
+    <div id="footer">
+    </div>
+  </div>
+</body>
+</html>
